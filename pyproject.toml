@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cache-forge"
+version = "1.0.0"
+description = "Sovereign Prompt-Cache Lock & Prefix Canonicalizer for AI Agent Swarms"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+cache-forge = "cache_forge.cli:main"
